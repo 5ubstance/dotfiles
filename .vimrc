@@ -30,7 +30,7 @@ highlight LineNr ctermfg=grey "ctermbg=white
 " }}}
 
 " Other Options ------------------------------------------------------- {{{
-"set smarttab
+set smarttab
 "set shiftwidth=4
 "set tabstop=4
 "set laststatus=4

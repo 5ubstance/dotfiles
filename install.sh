@@ -9,8 +9,10 @@ install() {
 	cp -a ./$1 ~/$1
 }
 
-for item in ".zshrc .vimrc .tmux.conf .gitconfig .vim"
+for item in .zshrc .vimrc .tmux.conf .gitconfig .vim
 do
 	backup $item
+	echo "Backed up $item."
 	install $item
+        echo "Installed $item."
 done
