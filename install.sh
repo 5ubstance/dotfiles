@@ -14,5 +14,5 @@ do
 	backup $item
 	echo "Backed up $item."
 	install $item
-        echo "Installed $item."
+	echo "Installed $item."
 done
