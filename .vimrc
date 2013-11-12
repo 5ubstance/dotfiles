@@ -6,6 +6,7 @@ set ruler
 set ignorecase
 set smartcase
 set hlsearch
+set incsearch
 set encoding=utf8
 set term=xterm-256color
 filetype plugin indent on
@@ -15,7 +16,6 @@ filetype plugin indent on
 if &term =~ '256color'
 	" Disable Background Color Erase (BCE) so that color schemes
 	" work properly when Vim is used inside tmux and GNU screen.
-	" See also http://snk.tuxfamily.org/log/vim-256color-bce.html
 	set t_ut=
 endif
 " }}}
@@ -36,6 +36,8 @@ set smarttab
 "set laststatus=4
 set autoindent
 set smartindent
+set whichwrap+=<,>,[,]
+set backspace=indent,eol,start
 " }}}
 
 " quick shortcut to paste without the indenting
