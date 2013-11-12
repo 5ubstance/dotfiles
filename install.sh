@@ -6,10 +6,10 @@ backup() {
 }
 
 install() {
-	cp -a ./$1 ~/$1
+	cp -aR ./$1 ~/$1
 }
 
-for item in .zshrc .vimrc .tmux.conf .gitconfig .vim
+for item in .zshrc .vimrc .tmux.conf .gitconfig .vim .oh-my-zsh
 do
 	backup $item
 	echo "Backed up $item."
