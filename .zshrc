@@ -1,5 +1,8 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="powerline"
+POWERLINE_RIGHT_B="none"
+POWERLINE_DISABLE_RPROMPT="true"
+POWERLINE_NO_BLANK_LINE="true"
 # CASE_SENSITIVE="true"
 # DISABLE_AUTO_UPDATE="true"
 # export UPDATE_ZSH_DAYS=13
@@ -13,6 +16,3 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-POWERLINE_RIGHT_B="none"
-POWERLINE_DISABLE_RPROMPT="true"
-POWERLINE_NO_BLANK_LINE="true"
