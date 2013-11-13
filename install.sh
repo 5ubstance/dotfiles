@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [[ ! `which zsh` ]]; then
+    echo "Make sure you install zsh on your system first"
+    exit 1
+fi
+
 backup() {
 	today=`date +%Y%m%d-%H%M%S`
 	mv ~/$1 ~/$1-$today
