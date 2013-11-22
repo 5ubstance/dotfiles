@@ -16,3 +16,9 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+## ALIASES ##
+alias gstat='git status'
+alias gadd='git add'
+alias gcom='git commit'
+alias gpush='git push'
