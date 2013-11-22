@@ -21,7 +21,8 @@ endif
 " }}}
 
 " Graphic Options ------------------------------------------------------- {{{
-colorscheme molokai
+colorscheme wombat
+"colorscheme molokai
 "colorscheme codeschool
 "colorscheme zenburn
 let g:rehash256 = 1
