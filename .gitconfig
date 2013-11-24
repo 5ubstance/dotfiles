@@ -3,3 +3,5 @@
 	email = philippe.desautels@gmail.com
 [push]
 	default = simple
+[alias]
+	today = log --since=midnight --author='Philippe Desautels' --oneline
