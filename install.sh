@@ -23,3 +23,5 @@ do
 	install $item
 	echo "Installed $item."
 done
+
+. ~/.zshrc
