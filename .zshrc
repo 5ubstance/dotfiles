@@ -18,6 +18,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 ## ALIASES ##
+alias gclone='git clone'
 alias gstat='git status'
 alias gadd='git add'
 alias gcom='git commit'
