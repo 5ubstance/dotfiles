@@ -11,7 +11,7 @@ POWERLINE_NO_BLANK_LINE="true"
 DISABLE_CORRECTION="true"
 # COMPLETION_WAITING_DOTS="true"
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
-plugins=(git brew colorize vagrant yum)
+plugins=(git brew colorize vagrant yum 5ubstance)
 source $ZSH/oh-my-zsh.sh
 PATh=/usr/local/sbin:/usr/local/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
