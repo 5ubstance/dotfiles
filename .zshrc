@@ -1,3 +1,4 @@
+## ZSH ##
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="powerline"
 POWERLINE_RIGHT_B="none"
@@ -13,12 +14,19 @@ DISABLE_CORRECTION="true"
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(git brew colorize vagrant yum 5ubstance)
 source $ZSH/oh-my-zsh.sh
-PATh=/usr/local/sbin:/usr/local/bin:$PATH
+
+## BREW ##
+PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+
+## RBENV ##
+PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 ## ALIASES ##
 alias gclone='git clone'
 alias gstat='git status'
 alias gadd='git add'
+alias gdiff='git diff'
 alias gcom='git commit'
 alias gpush='git push'
 alias gday='git today'
