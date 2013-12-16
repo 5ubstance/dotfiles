@@ -14,8 +14,6 @@ DISABLE_CORRECTION="true"
 plugins=(git brew colorize vagrant yum 5ubstance)
 source $ZSH/oh-my-zsh.sh
 PATh=/usr/local/sbin:/usr/local/bin:$PATH
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 ## ALIASES ##
 alias gclone='git clone'
