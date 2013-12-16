@@ -19,8 +19,10 @@ source $ZSH/oh-my-zsh.sh
 PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 
 ## RBENV ##
-PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+if [ `uname` == "Darwin" ]; then
+    PATH="$HOME/.rbenv/bin:$PATH"
+    eval "$(rbenv init -)"
+fi
 
 ## ALIASES ##
 alias gclone='git clone'
