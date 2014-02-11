@@ -42,3 +42,4 @@ set backspace=indent,eol,start
 
 " quick shortcut to paste without the indenting
 set pastetoggle=<F10>
+cmap w!! w !sudo tee > /dev/null %
