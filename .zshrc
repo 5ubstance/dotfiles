@@ -15,15 +15,17 @@ DISABLE_CORRECTION="true"
 plugins=(git brew colorize vagrant yum 5ubstance)
 source $ZSH/oh-my-zsh.sh
 
+unamestr=`uname`
+
 ## BREW ##
-if [ `uname` == "Darwin" ]; then
+if [[ "$unamestr" == "Darwin" ]]; then
     PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 fi
 
 ## RBENV ##
-if [ `uname` == "Darwin" ]; then
+if [[ "$unamestr" == "Darwin" ]]; then
     PATH="$HOME/.rbenv/bin:$PATH"
-    eval "$(rbenv init -)"
+    eval "$(rbenv init -)" 
 fi
 
 ## ALIASES ##
