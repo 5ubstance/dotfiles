@@ -16,7 +16,9 @@ plugins=(git brew colorize vagrant yum 5ubstance)
 source $ZSH/oh-my-zsh.sh
 
 ## BREW ##
-PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+if [ `uname` == "Darwin" ]; then
+    PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+fi
 
 ## RBENV ##
 if [ `uname` == "Darwin" ]; then
@@ -38,3 +40,6 @@ alias gun1='ssh root@vpn1.intello.com /root/bin/gun'
 alias gun2='ssh root@vpn2.intello.com /root/bin/gun'
 alias v='vim'
 alias sshn='ssh -t root@nova ssh'
+
+## Vi mode for the win !!
+bindkey -v
