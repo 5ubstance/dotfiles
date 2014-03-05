@@ -44,4 +44,4 @@ alias v='vim'
 alias sshn='ssh -t root@nova ssh'
 
 ## Vi mode for the win !!
-bindkey -v
+#bindkey -v
