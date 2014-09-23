@@ -43,5 +43,8 @@ alias gun2='ssh root@vpn2.intello.com /root/bin/gun'
 alias v='vim'
 alias sshn='ssh -t root@nova ssh'
 
-## Vi mode for the win !!
-#bindkey -v
+## IMPACTIFY ##
+eval "$($HOME/.impactify/libexec/impactify init -)"
+
+PERL_MB_OPT="--install_base \"/Users/philippe/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/philippe/perl5"; export PERL_MM_OPT;
