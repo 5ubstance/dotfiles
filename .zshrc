@@ -1,13 +1,6 @@
 ## ZSH ##
 ZSH=$HOME/.oh-my-zsh
-#ZSH_THEME="gallois"
-#ZSH_THEME="robbyrussell"
-#ZSH_THEME="sorin"
-#ZSH_THEME="alanpeabody"
 ZSH_THEME="5ubstance"
-#POWERLINE_RIGHT_B="none"
-#POWERLINE_DISABLE_RPROMPT="true"
-#POWERLINE_NO_BLANK_LINE="true"
 # CASE_SENSITIVE="true"
 # DISABLE_AUTO_UPDATE="true"
 # export UPDATE_ZSH_DAYS=13
