@@ -1,9 +1,13 @@
 ## ZSH ##
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="powerline"
-POWERLINE_RIGHT_B="none"
-POWERLINE_DISABLE_RPROMPT="true"
-POWERLINE_NO_BLANK_LINE="true"
+#ZSH_THEME="gallois"
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="sorin"
+#ZSH_THEME="alanpeabody"
+ZSH_THEME="5ubstance"
+#POWERLINE_RIGHT_B="none"
+#POWERLINE_DISABLE_RPROMPT="true"
+#POWERLINE_NO_BLANK_LINE="true"
 # CASE_SENSITIVE="true"
 # DISABLE_AUTO_UPDATE="true"
 # export UPDATE_ZSH_DAYS=13
@@ -23,10 +27,8 @@ if [[ "$unamestr" == "Darwin" ]]; then
 fi
 
 ## RBENV ##
-if [[ "$unamestr" == "Darwin" ]]; then
-    PATH="$HOME/.rbenv/bin:$PATH"
-    eval "$(rbenv init -)" 
-fi
+PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)" 
 
 ## ALIASES ##
 alias gclone='git clone'
@@ -44,7 +46,6 @@ alias v='vim'
 alias sshn='ssh -t root@nova ssh'
 
 ## IMPACTIFY ##
-eval "$($HOME/.impactify/libexec/impactify init -)"
-
-PERL_MB_OPT="--install_base \"/Users/philippe/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/Users/philippe/perl5"; export PERL_MM_OPT;
+#eval "$($HOME/.impactify/libexec/impactify init -)"
+#PERL_MB_OPT="--install_base \"/Users/philippe/perl5\""; export PERL_MB_OPT;
+#PERL_MM_OPT="INSTALL_BASE=/Users/philippe/perl5"; export PERL_MM_OPT;
