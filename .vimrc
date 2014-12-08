@@ -21,10 +21,11 @@ endif
 " }}}
 
 " Graphic Options ------------------------------------------------------- {{{
-colorscheme wombat
-"colorscheme molokai
+"colorscheme wombat
+colorscheme molokai
 "colorscheme codeschool
 "colorscheme zenburn
+"let base16colorspace=256
 let g:rehash256 = 1
 set background=dark
 highlight LineNr ctermfg=grey "ctermbg=white
