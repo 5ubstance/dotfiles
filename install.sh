@@ -10,7 +10,7 @@ if [ ! -d ~/.oh-my-zsh/.git ]; then
     cp powerline.zsh-theme ~/.oh-my-zsh/themes/ 
 fi
 
-if [[ ! `which zsh` ]]; then
+if [ ! `which zsh` ]; then
     echo "Make sure you install zsh on your system first"
     exit 1
 fi
