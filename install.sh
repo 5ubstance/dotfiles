@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # check to see if there's an up to date git repo in the .oh-my-zsh dir and clone it if not.
 if [ ! -d ~/.oh-my-zsh/.git ]; then
