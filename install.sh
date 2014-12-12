@@ -7,7 +7,7 @@ if [ ! -d ~/.oh-my-zsh/.git ]; then
     git clone https://github.com/robbyrussell/oh-my-zsh.git .
     # let's copy our modified powerline theme
     popd
-    cp *.zsh-theme ~/.oh-my-zsh/themes/ 
+    cp 5ubstance.zsh-theme ~/.oh-my-zsh/themes/ 
 fi
 
 if [ ! `which zsh` ]; then
