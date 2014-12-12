@@ -7,8 +7,9 @@ if [ ! -d ~/.oh-my-zsh/.git ]; then
     git clone https://github.com/robbyrussell/oh-my-zsh.git .
     # let's copy our modified powerline theme
     popd
-    cp 5ubstance.zsh-theme ~/.oh-my-zsh/themes/ 
 fi
+
+cp ./5ubstance.zsh-theme ~/.oh-my-zsh/themes/ 
 
 if [ ! `which zsh` ]; then
     echo "Make sure you install zsh on your system first"
