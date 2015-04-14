@@ -41,4 +41,5 @@ brew install \
   node \
   rpm \
   vim \
-  zsh
+  zsh \
+  imagemagick
