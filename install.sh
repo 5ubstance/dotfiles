@@ -25,7 +25,7 @@ install() {
 	cp -aR ./$1 ~/$1
 }
 
-for item in .zshrc .vimrc .tmux.conf .gitconfig .vim
+for item in .zshrc .vimrc .tmux.conf .gitconfig .vim .lessrc
 do
 	backup $item
 	echo "Backed up $item."
