@@ -28,5 +28,6 @@ ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[yellow]%} ═"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[blue]%} ✭"
 
 # and here's the prompt
-PROMPT="%{$fg[blue]%}%c%{$fg_bold[white]%} » "
+#PROMPT="%{$fg[blue]%}%c%{$fg_bold[white]%} » " # linux
+PROMPT="%{$fg[blue]%}%c%{$fg_bold[white]%} ❯ " # macosx
 RPROMPT="${return_code} ${git_branch} ${rvm}"
