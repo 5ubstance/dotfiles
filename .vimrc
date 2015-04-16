@@ -33,8 +33,8 @@ highlight LineNr ctermfg=grey "ctermbg=white
 
 " Other Options ------------------------------------------------------- {{{
 set smarttab
-set shiftwidth=4
-set laststatus=4
+set shiftwidth=2
+set laststatus=2
 set autoindent
 set smartindent
 set whichwrap+=<,>,[,]
