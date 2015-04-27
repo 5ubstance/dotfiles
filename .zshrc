@@ -23,22 +23,6 @@ fi
 PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)" 
 
-## ALIASES ##
-alias gclone='git clone'
-alias gstat='git status'
-alias gadd='git add'
-alias gdiff='git diff'
-alias gcom='git commit'
-alias gpsh='git push'
-alias gpll='git pull'
-alias gstash='git stash'
-alias gun1='ssh root@vpn1.intello.com /root/bin/gun'
-alias gun2='ssh root@vpn2.intello.com /root/bin/gun'
-alias v='vim'
-alias sshn='ssh -t root@nova ssh'
-alias gday='git log --since=midnight --author='Philippe Desautels' --oneline --color'
-alias glog='git log --oneline --decorate --color --graph --name-status'
-
 ## GLI ##
 ## this enables bash completion in ZSH
 if [[ -n ${ZSH_VERSION-} ]]; then
@@ -61,3 +45,29 @@ function get_my_cli_commands()
 
 ## ADB (depends on android sdk, java jvm... I installed this with AndroidStudio
 PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
+
+## Quick pastebin service integration
+function paste.click(){
+  if [ -z "$1" ]; then
+    curl -s --data-binary @- paste.click/s/;
+  else
+    curl -s --data-binary @$1 paste.click;
+  fi;
+};
+
+## ALIASES ##
+alias gclone='git clone'
+alias gstat='git status'
+alias gadd='git add'
+alias gdiff='git diff'
+alias gcom='git commit'
+alias gpsh='git push'
+alias gpll='git pull'
+alias gstash='git stash'
+alias gun1='ssh root@vpn1.intello.com /root/bin/gun'
+alias gun2='ssh root@vpn2.intello.com /root/bin/gun'
+alias v='vim'
+alias sshn='ssh -t root@nova ssh'
+alias gday='git log --since=midnight --author='Philippe Desautels' --oneline --color'
+alias glog='git log --oneline --decorate --color --graph --name-status'
+alias paste-click='paste.click'
