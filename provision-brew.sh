@@ -42,4 +42,6 @@ brew install \
   rpm \
   vim \
   zsh \
+  spark \
+  colordiff \
   imagemagick
