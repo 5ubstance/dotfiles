@@ -55,6 +55,10 @@ function paste.click(){
   fi;
 };
 
+## PLENV (impact-client)
+export PATH="$HOME/.plenv/bin:$PATH"
+eval "$(plenv init -)"
+
 ## ALIASES ##
 alias gclone='git clone'
 alias gstat='git status'
@@ -71,4 +75,6 @@ alias sshn='ssh -t root@nova ssh'
 alias gday='git log --since=midnight --author='Philippe Desautels' --oneline --color'
 alias glog='git log --oneline --decorate --color --graph --name-status'
 alias paste-click='paste.click'
+alias cpaste='paste.click'
+alias pclick='paste.click'
 alias c='clear'
