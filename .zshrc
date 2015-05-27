@@ -23,6 +23,11 @@ fi
 PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)" 
 
+## IMPACTIFY ##
+eval "$($HOME/.impactify/libexec/impactify init -)"
+PERL_MB_OPT="--install_base \"/Users/philippe/perl5\""; export PERL_MB_OPT;	 
+PERL_MM_OPT="INSTALL_BASE=/Users/philippe/perl5"; export PERL_MM_OPT;
+
 ## GLI ##
 ## this enables bash completion in ZSH
 if [[ -n ${ZSH_VERSION-} ]]; then
