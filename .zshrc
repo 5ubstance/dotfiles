@@ -83,3 +83,4 @@ alias paste-click='paste.click'
 alias cpaste='paste.click'
 alias pclick='paste.click'
 alias c='clear'
+alias grepc="grep --color -E '$1|$' $2"

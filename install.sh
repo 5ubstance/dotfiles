@@ -33,4 +33,4 @@ do
 	echo "Installed $item."
 done
 
-. ~/.zshrc
+echo -e "\nRun :\n\t\"source ~/.zshrc\"\nto reload your env."
