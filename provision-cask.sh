@@ -24,4 +24,5 @@ brew cask install \
   sequel-pro \
   transmission \
   vimr \
+  libreoffice \
   vlc
