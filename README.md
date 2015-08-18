@@ -1,6 +1,6 @@
-# My .dotfiles
+# All hail the .dotfiles
 
-This repo contains a few of my dotfiles and makes it easy to reproduce my current setup on another machine.
+This repo contains a few of my dotfiles and is an attempt at making it easier to reproduce my current setup on another machine.
 
 ## Contents
 
@@ -13,6 +13,12 @@ It currently contains :
 
 ## Disclaimer
 
-This collection of files is pretty much a code collage from a number of sources which I'm not gonna list here. However, if you feel you deserve credit for any part of these files, just let me know and I'll credit you right here.
+This collection of files is pretty much a code collage from a number of sources. I'm not gonna attempt to list them all here but a few notable entries are :
+
+ - [Base16's Monokai Dark iterm theme](https://github.com/chriskempson/base16-iterm2/blob/master/base16-monokai.dark.256.itermcolors)
+ - [Molokai for Vim](https://github.com/tomasr/molokai)
+ - [Smyck terminal color theme](http://color.smyck.org/)
+
+However, if you feel you deserve credit for any part of these files, just let me know and I'll credit you right here.
 
 Also, I can't be held responsible if your computer bursts into flames or eats your firstborn after using these files. You never know.
