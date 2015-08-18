@@ -18,7 +18,7 @@ This collection of files is pretty much a code collage from a number of sources.
  - [Base16's Monokai Dark iterm theme](https://github.com/chriskempson/base16-iterm2/blob/master/base16-monokai.dark.256.itermcolors)
  - [Molokai for Vim](https://github.com/tomasr/molokai)
  - [Smyck terminal color theme](http://color.smyck.org/)
- - [My zsh theme is mostly based off of alanpeabody's](github.com/robbyrussell/oh-my-zsh/blob/1816e957770f8e3f0ad22658f741c5f0492da982/themes/alanpeabody.zsh-theme)
+ - [My zsh theme is mostly based off of alanpeabody's](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/alanpeabody.zsh-theme)
 
 However, if you feel you deserve credit for any part of these files, just let me know and I'll credit you right here.
 
