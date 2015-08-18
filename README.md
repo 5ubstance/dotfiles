@@ -10,3 +10,9 @@ It currently contains :
  - My tmux config (.tmux.conf)
  - My vim config (.vimrc and .vim folder)
  - My git config (.gitconfig)
+
+## Disclaimer
+
+This collection of files is pretty much a code collage from a number of sources which I'm not gonna list here. However, if you feel you deserve credit for any part of these files, just let me know and I'll credit you right here.
+
+Also, I can't be held responsible if your computer bursts into flames or eats your firstborn after using these files. You never know.
