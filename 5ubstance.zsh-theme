@@ -16,7 +16,6 @@ local git_branch='$(git_prompt_status)%{$reset_color%}$(git_prompt_info)%{$reset
 
 # zsh environment stuff
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[white]%} "
-#ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
 ZSH_THEME_GIT_PROMPT_DIRTY=""
 ZSH_THEME_GIT_PROMPT_CLEAN=""

@@ -5,7 +5,6 @@ if [ ! -d ~/.oh-my-zsh/.git ]; then
     mkdir -p ~/.oh-my-zsh/
     pushd ~/.oh-my-zsh
     git clone https://github.com/robbyrussell/oh-my-zsh.git .
-    # let's copy our modified powerline theme
     popd
 fi
 
