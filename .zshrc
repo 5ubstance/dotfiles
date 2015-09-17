@@ -82,3 +82,4 @@ alias glog='git log --oneline --decorate --color --graph --name-status'
 alias paste-click='paste.click'
 alias cpaste='paste.click'
 alias c='clear'
+alias tmux="TERM=screen-256color-bce tmux"
