@@ -73,6 +73,13 @@ alias gcom='git commit'
 alias gpsh='git push'
 alias gpll='git pull'
 alias gstash='git stash'
+alias grevert='echo "Go back one commit?"; \
+select yn in "Yes" "No"; do \
+  case $yn in \
+    Yes ) git reset HEAD^ --hard; break;; \
+    No ) break;; \
+  esac \
+done'
 alias gun1='ssh root@vpn1.intello.com /root/bin/gun'
 alias gun2='ssh root@vpn2.intello.com /root/bin/gun'
 alias v='vim'
