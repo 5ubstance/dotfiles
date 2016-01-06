@@ -3,6 +3,7 @@
 #TODO Make sure brew is installed
 brew install \
   caskroom/cask/brew-cask \
+  zsh-syntax-highlighting \
   flac \
   jq \
   lsusb \

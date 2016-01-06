@@ -90,3 +90,10 @@ alias paste-click='paste.click'
 alias cpaste='paste.click'
 alias c='clear'
 alias tmux="TERM=screen-256color-bce tmux"
+
+# OSX system mods
+# to fix issue with ansible forks : https://github.com/ansible/ansible/issues/12259
+ulimit -n 2048
+
+# zsh syntax highlighting (requires `brew install zsh-syntax-highlighting` first)
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -25,4 +25,5 @@ brew cask install \
   transmission \
   vimr \
   libreoffice \
+  google-drive \
   vlc
