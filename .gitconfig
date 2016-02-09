@@ -1,5 +1,6 @@
 [user]
 	name = Philippe Desautels
 	email = philippe.desautels@gmail.com
+	signingkey = B1E17FEA
 [push]
 	default = simple

@@ -14,6 +14,22 @@ source $ZSH/oh-my-zsh.sh
 
 unamestr=`uname`
 
+## FUNCTIONS
+function delete_remote_tag(){
+  if [ $1 ]; then
+    echo "Delete tag $1?";
+    select answer in "Yes" "No"; do
+      case $answer in
+	Yes ) git tag -d $1; git push origin :refs/tags/$1; break;;
+	No ) break;;
+      esac
+    done
+  else
+    echo "Please give me a tag to work with"
+    exit 1
+  fi
+}
+
 ## BREW ##
 if [[ "$unamestr" == "Darwin" ]]; then
     PATH="/usr/local/sbin:/usr/local/bin:$PATH"
@@ -74,12 +90,14 @@ alias gpsh='git push'
 alias gpll='git pull'
 alias gstash='git stash'
 alias grevert='echo "Go back one commit?"; \
-select yn in "Yes" "No"; do \
-  case $yn in \
-    Yes ) git reset HEAD^ --hard; break;; \
-    No ) break;; \
-  esac \
-done'
+  select answer in "Yes" "No"; do \
+    case $answer in \
+      Yes ) git reset HEAD^ --hard; break;; \
+      No ) break;; \
+    esac \
+  done'
+
+alias gtagrm="delete_remote_tag $1"
 alias gun1='ssh root@vpn1.intello.com /root/bin/gun'
 alias gun2='ssh root@vpn2.intello.com /root/bin/gun'
 alias v='vim'
