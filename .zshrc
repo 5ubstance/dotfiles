@@ -17,10 +17,10 @@ unamestr=`uname`
 ## FUNCTIONS
 function delete_remote_tag(){
   if [ $1 ]; then
-    echo "Delete tag $1?";
+    echo "Delete tag(s) : $@?";
     select answer in "Yes" "No"; do
       case $answer in
-	Yes ) git tag -d $1; git push origin :refs/tags/$1; break;;
+	Yes ) for tag in "$@"; do git tag -d $tag; git push origin :refs/tags/$tag; done; break;;
 	No ) break;;
       esac
     done
