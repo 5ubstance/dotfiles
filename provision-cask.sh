@@ -4,26 +4,24 @@
 
 brew cask install \
   alfred \
-  firefox \
-  hipchat \
-  macdown \
-  sketchup \
-  vagrant \
-  virtualbox \
-  xld \
   dropbox \
-  google-chrome \
-  iterm2 \
-  namechanger \
-  skype \
-  vagrant-manager \
-  viscosity \
   filezilla \
-  gpgtools \
-  lisanet-gimp \
-  sequel-pro \
-  transmission \
-  vimr \
-  libreoffice \
+  google-chrome \
   google-drive \
-  vlc
+  gpgtools \
+  hipchat \
+  iterm2 \
+  libreoffice \
+  lisanet-gimp \
+  macdown \
+  sequel-pro \
+  sketchup \
+  skype \
+  transmission \
+  vagrant \
+  vagrant-manager \
+  vimr \
+  virtualbox \
+  viscosity \
+  vlc \
+  xld \
