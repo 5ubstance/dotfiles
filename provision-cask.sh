@@ -17,6 +17,7 @@ brew cask install \
   sequel-pro \
   sketchup \
   skype \
+  spotify \
   transmission \
   vagrant \
   vagrant-manager \
