@@ -21,6 +21,7 @@ brew install \
   libevent \
   libmagic \
   miniupnpc \
+  mysql \
   nmap \
   node \
   openssl \
