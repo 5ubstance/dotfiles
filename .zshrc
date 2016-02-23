@@ -71,6 +71,7 @@ alias grevert='echo "Go back one commit?"; \
     esac \
   done'
 
+alias gtag="git tag"
 alias gtagrm="delete_remote_tag $1"
 alias gun1='ssh root@vpn1.intello.com /root/bin/gun'
 alias gun2='ssh root@vpn2.intello.com /root/bin/gun'
