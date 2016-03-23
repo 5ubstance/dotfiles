@@ -45,4 +45,5 @@ brew install \
   zsh \
   spark \
   colordiff \
+  gnu-sed \
   imagemagick
