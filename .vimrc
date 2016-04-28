@@ -54,6 +54,7 @@ cmap w!! w !sudo tee > /dev/null %
 set clipboard=unnamed
 
 " plugin options
+" Enable RainbowParentheses by default
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
