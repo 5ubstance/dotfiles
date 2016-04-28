@@ -1,3 +1,8 @@
+" Pathogen ------------------------------------------------------------ {{{
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+" }}}
+
 " Basic Options ------------------------------------------------------- {{{
 set nocompatible
 syntax enable
@@ -47,3 +52,9 @@ cmap w!! w !sudo tee > /dev/null %
 
 " copy/paste integration
 set clipboard=unnamed
+
+" plugin options
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
