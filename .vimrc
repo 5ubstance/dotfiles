@@ -50,8 +50,8 @@ set backspace=indent,eol,start
 set pastetoggle=<F10>
 cmap w!! w !sudo tee > /dev/null %
 
-" copy/paste integration
-set clipboard=unnamed
+" copy/paste integration // not working anymore as of 05/05/16 no fucking clue
+"set clipboard=unnamed
 
 " plugin options
 " Enable RainbowParentheses by default
