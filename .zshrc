@@ -3,7 +3,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="5ubstance"
 DISABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(git brew colorize vagrant yum 5ubstance)
+plugins=(git brew colorize vagrant yum 5ubstance z)
 source $ZSH/oh-my-zsh.sh
 
 unamestr=`uname`
