@@ -81,6 +81,9 @@ alias gday='git log --since=midnight --author='Philippe Desautels' --oneline --c
 alias glog='git log --oneline --decorate --color --graph --name-status'
 alias c='clear'
 alias tmux="TERM=screen-256color-bce tmux"
+alias s="ssh"
+alias a="ansible"
+alias ap="ansible-playbook"
 
 # OSX system mods
 # to fix issue with ansible forks : https://github.com/ansible/ansible/issues/12259
