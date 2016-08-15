@@ -75,15 +75,23 @@ alias gtag="git tag"
 alias gtagrm="delete_remote_tag $1"
 alias gun1='ssh root@vpn1.intello.com /root/bin/gun'
 alias gun2='ssh root@vpn2.intello.com /root/bin/gun'
-alias v='vim'
 alias sshn='ssh -t root@nova ssh'
 alias gday='git log --since=midnight --author='Philippe Desautels' --oneline --color'
 alias glog='git log --oneline --decorate --color --graph --name-status'
-alias c='clear'
 alias tmux="TERM=screen-256color-bce tmux"
-alias s="ssh"
-alias a="ansible"
-alias ap="ansible-playbook"
+alias a='ansible'
+alias ap='ansible-playbook'
+alias av='ansible-vault'
+alias b='brew'
+alias c='clear'
+alias e='echo'
+alias g='grep -ir'
+alias k='killall'
+alias l='ls -la'
+alias p='ping'
+alias s='ssh'
+alias sz='source ~/.zshrc'
+alias v='vim'
 
 # OSX system mods
 # to fix issue with ansible forks : https://github.com/ansible/ansible/issues/12259
